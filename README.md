@@ -66,7 +66,7 @@ This project provides a recommendation system API trained on the food.com datase
 http  
 ```sh
 GET /recommendations?favorite_cuisines=Italian,Chinese&favorite_ingredients=chicken,tomato&favorite_dishes=pizza,pasta&num_recommendations=5
-
+```
 
 #### Example Response:
 ```sh
