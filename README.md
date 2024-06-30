@@ -33,11 +33,13 @@ This project provides a recommendation system API trained on the food.com datase
 ## Installation
 
 1. Pull the Docker image:
+   ```sh
    bash
    docker pull abdelrahmanmenisy2002/food_recommendation_sys
    
 
-2. Run the Docker container:
+3. Run the Docker container:
+   ```sh
    bash
    docker run -d -p 8000:8000 abdelrahmanmenisy2002/food_recommendation_sys
    
@@ -46,7 +48,9 @@ This project provides a recommendation system API trained on the food.com datase
 
 ### Running the API
 
-1. The API will be accessible at `http://127.0.0.1:8000`.
+1. The API will be accessible at
+   ```sh
+   `http://127.0.0.1:8000`.
 
 ## API Endpoints
 
@@ -59,11 +63,13 @@ This project provides a recommendation system API trained on the food.com datase
 - `num_recommendations` (int, optional): Number of recipes to recommend (default is 10).
 
 #### Example Request:
-http
+http  
+```sh
 GET /recommendations?favorite_cuisines=Italian,Chinese&favorite_ingredients=chicken,tomato&favorite_dishes=pizza,pasta&num_recommendations=5
 
 
 #### Example Response:
+```sh
 json
 {
   "recommendations": [
@@ -81,11 +87,13 @@ json
 ### Building the Docker Image
 
 1. Build the Docker image:
+```sh
    bash
    docker build -t food_recommendation_sys .
    
 
 2. Run the Docker container:
+```sh
    bash
    docker run -d -p 8000:8000 food_recommendation_sys
    
@@ -93,6 +101,7 @@ json
 ### Pulling from Docker Hub
 
 1. Pull the Docker image:
+```sh
    bash
    docker pull abdelrahmanmenisy2002/food_recommendation_sys
    
@@ -100,6 +109,7 @@ json
 ### Running the Docker Container
 
 1. Run the Docker container:
+```sh
    bash
    docker run -d -p 8000:8000 abdelrahmanmenisy2002/food_recommendation_sys
    
@@ -107,11 +117,13 @@ json
 ### Pushing to Docker Hub
 
 1. Tag the Docker image:
+```sh
    bash
    docker tag food_recommendation_sys abdelrahmanmenisy2002/food_recommendation_sys
    
 
 2. Push the Docker image to Docker Hub:
+```sh
    bash
    docker push abdelrahmanmenisy2002/food_recommendation_sys
    
