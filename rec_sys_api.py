@@ -5,13 +5,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import random
 import os
 
-# Debugging: Check if files exist
-# print("Checking file existence...")
-# print("svd_model.pkl exists:", os.path.isfile('app/svd_model.pkl'))
-# print("tfidf_vectorizer.pkl exists:", os.path.isfile('app/tfidf_vectorizer.pkl'))
-# print("recipe_matrix.pkl exists:", os.path.isfile('app/recipe_matrix.pkl'))
-# print("recipes.pkl exists:", os.path.isfile('app/recipes.pkl'))
-
 # Load models and data
 with open('app/svd_model.pkl', 'rb') as f:
     algo = pickle.load(f)
