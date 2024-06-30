@@ -119,7 +119,7 @@ json
 ## Backend Developer
 
 This project is used by the backend developer:
-[Omar saeed](https://github.com/Omarsa2002)
+[Omar Saeed](https://github.com/Omarsa2002)
 
 ## Flutter App Developer
 
