@@ -80,7 +80,7 @@ json
     "Recipe 5"
   ]
 }
-
+```
 
 ## Docker
 
@@ -90,13 +90,13 @@ json
 ```sh
    bash
    docker build -t food_recommendation_sys .
-   
+   ```
 
 2. Run the Docker container:
 ```sh
    bash
    docker run -d -p 8000:8000 food_recommendation_sys
-   
+   ```
 
 ### Pulling from Docker Hub
 
@@ -104,7 +104,7 @@ json
 ```sh
    bash
    docker pull abdelrahmanmenisy2002/food_recommendation_sys
-   
+   ```
 
 ### Running the Docker Container
 
@@ -112,7 +112,7 @@ json
 ```sh
    bash
    docker run -d -p 8000:8000 abdelrahmanmenisy2002/food_recommendation_sys
-   
+   ```
 
 ### Pushing to Docker Hub
 
@@ -120,13 +120,13 @@ json
 ```sh
    bash
    docker tag food_recommendation_sys abdelrahmanmenisy2002/food_recommendation_sys
-   
+   ```
 
 2. Push the Docker image to Docker Hub:
 ```sh
    bash
    docker push abdelrahmanmenisy2002/food_recommendation_sys
-   
+   ```
 
 ## Backend Developer
 
